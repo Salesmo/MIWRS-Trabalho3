@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Relatório de Aeroporto</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Relatório de Aeroporto</h1>
+        <form method="POST">
+            <label for="airport">Código do Aeroporto (ICAO):</label>
+            <input type="text" id="airport" name="airport" placeholder="Ex: SBGR" required>
+            <button type="submit">Gerar</button>
+        </form>
+        <div class="relatorio">
+            {% if relatorio %}
+                <h2>Relatório:</h2>
+                <div class="relatorio-container">
+                    {{ relatorio }}
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>

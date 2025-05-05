@@ -1,0 +1,53 @@
+{
+    "Arrivals":[
+        {
+            "time":"19:25",
+            "flight": "G31999",
+            "from": "Maceio",
+            "airport": "MCZ",
+            "airline": "GOL Linhas Aereas",
+            "aircraft": "B737",
+            "aircraft-name": "PR-GEA",
+            "status": "Landed",
+            "time-status": "19:06"
+        },
+        {
+            "time":"19:25",
+            "flight": "LA3413",
+            "from": "Cuiaba",
+            "airport": "CGB",
+            "airline": "LATAM Airlines",
+            "aircraft": "A321",
+            "aircraft-name": "PT-XPE",
+            "status": "Landed",
+            "time-status": "18:56"
+        }
+    ],
+    "Departures":[
+        {
+            "time":"19:00",
+            "flight": "G31461",
+            "to": "Sao Paulo",
+            "airport": "CGH",
+            "airline": "GOL Linhas Aereas",
+            "aircraft": "B38M",
+            "aircraft-name": "PR-XMX",
+            "status": "Departed",
+            "time-status": "19:04"
+        },
+        {
+            "time":"19:00",
+            "flight": "G31461",
+            "to": "Sao Paulo",
+            "airport": "CGH",
+            "airline": "GOL Linhas Aereas",
+            "aircraft": "B38M",
+            "aircraft-name": "PR-XMX",
+            "status": "Departed",
+            "time-status": "19:04"
+        }
+    ],
+    "Reviews":[
+        
+    ]
+}
